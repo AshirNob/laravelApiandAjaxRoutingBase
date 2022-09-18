@@ -1,0 +1,29 @@
+('UserManagement',1,0,'0'),
+('AddUsers',0,1,'adduser'),
+('AllUsers',0,1,'alluser'),
+('ActiveUsers',0,1,'activeuser'),
+('In-ActiveUsers',0,1,'inactiveuser'),
+('ResignUsers',0,1,'resignuser'),
+('TransferUsers',0,1,'transferuser'),
+('TeamManagment',1,0,'0'),
+('TeamMapping',08,,'teammapping'),
+('TeamTransfer',1,0,'0'),
+('TeamTransfer',0,10,'teamtransfer'),
+('TerritoryUploader',1,0,'0'),
+('TerritoryUploader',0,12,'territoryiploader'),
+('Reports',1,0,'0'),
+('NonFinancial',1,14,'0'),
+('AllVisit',0,15,'allvisits'),
+
+<input type="file" name="img_g">
+    // event.preventDefault();
+    //    for(const pair of formData.entries()) {
+    //     console.log(`${pair[0]}, ${pair[1]}`);
+    //   }
+    // let sName=document.getElementById('sName').value;
+    // let sDescription=document.getElementById('sDescription').value;
+    // let obj={
+    //     "sName":sName,
+    //     "sDescription":sDescription
+    // }
+select  formfields.type as field_type ,shopfield.id as shop_field_id, shopfield.label, shopfield.fk_shop as shop_id ,
